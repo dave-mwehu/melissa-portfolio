@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Mélissa Ndjakisa Mukendi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500&family=Work+Sans:wght@300;400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#top">Mélissa</a>
+        <div class="nav-links">
+          <a href="#presentation">Présentation</a>
+          <a href="#competences">Compétences</a>
+          <a href="#gallery">Galerie</a>
+          <button class="theme-toggle" type="button" aria-pressed="false">
+            mode
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Accueil">
+        <div class="hero-content">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Mélissa Ndjakisa Mukendi, une présence douce, solide et professionnelle.</h1>
+          <p class="lead">
+            Je crée des expériences simples et lumineuses, avec une
+            communication claire et une attention sincère à l’émotion.
+            Comme une lumière calme qui reste.
+          </p>
+          <p class="hero-note">
+            Un portfolio pensé comme un geste tendre : vrai, discret, et soigné.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="#competences">Voir le travail</a>
+            <a class="ghost" href="#presentation">Mon histoire</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/IMG-20260207-WA0034.jpg" alt="Portrait en lumière douce" />
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+          <span>Défiler</span>
+          <div class="dot"></div>
+        </div>
+      </section>
+
+      <section id="presentation" class="about" aria-label="Présentation">
+        <div class="section-heading">
+          <p class="eyebrow">Présentation</p>
+          <h2>Certaines présences apaisent sans bruit. La sienne en fait partie.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Communication attentive</h3>
+            <p>
+              Elle écoute vraiment. Pas pour répondre vite, mais pour comprendre
+              ce qui ne se dit pas toujours. Ses mots arrivent ensuite, simples
+              et justes, comme une évidence.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Empathie naturelle</h3>
+            <p>
+              Elle ressent avant de juger. Là où d’autres voient des défauts,
+              elle cherche des histoires, des raisons, des nuances humaines.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Présence posée</h3>
+            <p>
+              Elle ne cherche pas à prendre toute la place. Pourtant, quand elle
+              parle, le calme s’installe… et les choses deviennent plus claires.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="competences" class="portfolio" aria-label="Compétences et gestion">
+        <div class="section-heading">
+          <p class="eyebrow">Compétences</p>
+          <h2>Une manière d’agir, de parler et de rassembler.</h2>
+        </div>
+        <div class="dashboard">
+          <div class="panel highlight">
+            <h3>Parcours & engagements</h3>
+            <ul>
+              <li>
+                <span>Présence et implication</span>
+                <small>
+                  Elle avance avec sérieux et constance. Dans chaque projet ou
+                  chaque échange, elle privilégie l’écoute, la compréhension et
+                  le respect des autres avant tout.
+                </small>
+              </li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Expression & art oratoire</h3>
+            <p class="cert-subtitle">Prise de parole</p>
+            <p>
+              Certification en art oratoire délivrée par une avocate reconnue.
+              Une parole posée, claire et réfléchie, capable d’apaiser, de
+              convaincre et de créer du lien.
+            </p>
+          </div>
+          <div class="panel">
+            <h3>Gestion & coordination</h3>
+            <div class="skill-list">
+              <span>Organisation humaine</span>
+              <span>Organisation d’équipes avec douceur et structure</span>
+              <span>Communication claire et respectueuse</span>
+              <span>Sens des responsabilités</span>
+              <span>Vision calme sous pression</span>
+              <span>Expression artistique (dessin)</span>
+            </div>
+          </div>
+          <div class="panel">
+            <h3>Signature personnelle</h3>
+            <p class="cert-subtitle">Sa manière d’être</p>
+            <p>
+              Une présence lumineuse, attentive aux autres, qui transforme les
+              échanges simples en moments sincères. Elle ne cherche pas à
+              briller plus que les autres — elle crée plutôt un espace où
+              chacun peut exister.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certification" class="certification" aria-label="Certification art oratoire">
+        <div class="section-heading">
+          <p class="eyebrow">Certification</p>
+          <h2>Art oratoire</h2>
+        </div>
+        <article class="cert-card card">
+          <div class="cert-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path
+                d="M12 3c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5 2.2-5 5-5zm0 12c3.3 0 6 1.6 6 3.5V21H6v-2.5c0-1.9 2.7-3.5 6-3.5zm7.5-1.5 1.2-1.2-1.2-1.2.8-1.4-1.6-.6.2-1.6-1.6.2-.6-1.6-1.4.8-1.2-1.2-1.2 1.2-1.4-.8-.6 1.6-1.6-.2.2 1.6-1.6.6.8 1.4-1.2 1.2 1.2 1.2-.8 1.4 1.6.6-.2 1.6 1.6-.2.6 1.6 1.4-.8 1.2 1.2 1.2-1.2 1.4.8.6-1.6 1.6.2-.2-1.6 1.6-.6-.8-1.4z"
+                fill="currentColor"
+                opacity="0.45"
+              />
+            </svg>
+          </div>
+          <div class="cert-content">
+            <h3>Art oratoire</h3>
+            <p class="cert-subtitle">Certification délivrée par un avocat local</p>
+            <p>
+              Formation axée sur l’aisance, la structure du discours et la
+              prise de parole professionnelle.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="gallery" class="gallery" aria-label="Galerie">
+        <div class="section-heading">
+          <p class="eyebrow">Galerie</p>
+          <h2>Moments, textures et mouvements.</h2>
+        </div>
+        <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+      </section>
+
+      <section id="secret" class="secret" aria-label="Section personnelle" hidden>
+        <div class="section-heading">
+          <p class="eyebrow">Personnel</p>
+          <h2>Un espace discret, tout en douceur.</h2>
+        </div>
+        <p class="secret-intro">
+          Une pensée douce, déposée ici comme une respiration.
+        </p>
+        <div class="card">
+          <p>
+            Je m’inspire des matins calmes, des notes manuscrites et de la
+            lumière douce de la ville. Un rappel que la qualité naît du repos
+            et de la réflexion.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Conçu avec douceur et intention.</p>
+      <button class="footer-reveal" type="button" aria-controls="secret" aria-expanded="false">
+        note discrète
+      </button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

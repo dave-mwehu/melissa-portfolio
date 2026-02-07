@@ -1,0 +1,69 @@
+// Soft Feminine Design System
+// Mood: elegant, minimal, bright, calm
+
+// Color palette
+$color-blush: #f8d9d5;
+$color-peach: #f7c9bf;
+$color-petal: #fde8e4;
+$color-cream: #fff6f3;
+$color-mist: #f6f0ee;
+$color-latte: #eadcd6;
+$color-rosewood: #6b5b55;
+$color-mauve: #8a7b75;
+$color-white: #ffffff;
+
+// Semantic colors
+$color-bg: $color-cream;
+$color-surface: $color-white;
+$color-soft: $color-petal;
+$color-border: rgba($color-latte, 0.55);
+$color-text: $color-rosewood;
+$color-muted: $color-mauve;
+$color-accent: $color-peach;
+$color-accent-strong: #e7a9a2;
+
+// Typography scale
+$font-family-base: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-serif: "Playfair Display", "Georgia", serif;
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.5rem;
+$font-size-2xl: 2rem;
+$font-size-3xl: 2.75rem;
+$font-size-4xl: 3.5rem;
+
+$line-height-tight: 1.2;
+$line-height-base: 1.6;
+$line-height-loose: 1.8;
+
+// Soft shadows
+$shadow-sm: 0 6px 18px rgba(89, 64, 57, 0.08);
+$shadow-md: 0 16px 36px rgba(89, 64, 57, 0.12);
+$shadow-lg: 0 30px 60px rgba(89, 64, 57, 0.14);
+
+// Rounded borders
+$radius-xs: 8px;
+$radius-sm: 14px;
+$radius-md: 22px;
+$radius-lg: 32px;
+$radius-pill: 999px;
+
+// Spacing scale
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 20px;
+$space-6: 24px;
+$space-7: 32px;
+$space-8: 40px;
+$space-9: 56px;
+$space-10: 72px;
+$space-11: 96px;
+
+// Example usage
+// body { background: $color-bg; color: $color-text; font-family: $font-family-base; }
+// .card { background: $color-surface; box-shadow: $shadow-md; border-radius: $radius-md; }
